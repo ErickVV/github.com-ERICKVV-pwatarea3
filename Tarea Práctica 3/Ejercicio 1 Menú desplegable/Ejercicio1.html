@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style.css">
+  <title>Menú Desplegable</title>
+</head>
+<body>
+
+  <nav class="navbar">
+    <ul class="menu">
+      <li class="menu-item" onclick="toggleSubMenu('submenu1')">Inicio
+        <ul class="submenu" id="submenu1">
+          <li class="submenu-item">Quines somos </li>
+          <li class="submenu-item">Que bindamos </li>
+          <li class="submenu-item">Porque iniciamos</li>
+        </ul>
+      </li>
+      <li class="menu-item" onclick="toggleSubMenu('submenu2')">Servicios
+        <ul class="submenu" id="submenu2">
+          <li class="submenu-item">Servicio 1</li>
+          <li class="submenu-item">Servicio 2</li>
+          <li class="submenu-item">Servicio 3</li>
+        </ul>
+      </li>
+      <li class="menu-item" onclick="toggleSubMenu('submenu3')">Acerca de
+        <ul class="submenu" id="submenu3">
+          <li class="submenu-item">Nosotros</li>
+          <li class="submenu-item">Historia</li>
+          <li class="submenu-item">Opiniones</li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>

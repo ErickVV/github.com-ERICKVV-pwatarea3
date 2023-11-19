@@ -1,0 +1,2 @@
+USUARIO:root
+CLAVE:123ube      ----->todo en minuscula
